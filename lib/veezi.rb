@@ -1,5 +1,7 @@
 require "veezi/version"
 require "veezi/configuration"
+require "veezi/api/base"
+require "veezi/api/sessions"
 
 module Veezi
   class << self

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Veezi::Ruby::VERSION
   spec.authors       = ["Carlos Rodriguez"]
   spec.email         = ["carlos@eddorre.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Ruby Gem to consume Veezi API}
+  spec.summary       = %q{Ruby Gem to consume Veezi API}
   spec.homepage      = ""
   spec.license       = "MIT"
 

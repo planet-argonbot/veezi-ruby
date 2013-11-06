@@ -8,4 +8,10 @@ describe "Configuration Settings" do
 
     expect(Veezi.configuration.api_key).to eq "1234567890"
   end
+
+  it "should have an api key when defined via hash" do
+    Veezi.configure api_key: '1234567890'
+
+    expect(Veezi.configuration.api_key).to eq "1234567890"
+  end
 end

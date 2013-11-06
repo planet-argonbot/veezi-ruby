@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'veezi/ruby/version'
+require 'veezi/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "veezi-ruby"
-  spec.version       = Veezi::Ruby::VERSION
+  spec.version       = Veezi::VERSION
   spec.authors       = ["Carlos Rodriguez"]
   spec.email         = ["carlos@eddorre.com"]
   spec.description   = %q{Ruby Gem to consume Veezi API}

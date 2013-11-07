@@ -11,6 +11,12 @@ describe "Sessions API Resource" do
   end
 
   context "JSON" do
+    before do
+      Veezi.configure do |config|
+        config.content_type = :json
+      end
+    end
+
     context "All" do
       before do
         response = File.new(File.dirname(__FILE__) + '/fixtures/json/sessions.json')

@@ -5,6 +5,7 @@ module Veezi
     attr_accessor :api_key
     attr_accessor :use_ssl
     attr_accessor :endpoint_url
+    attr_accessor :content_type
 
     def initialize
     end

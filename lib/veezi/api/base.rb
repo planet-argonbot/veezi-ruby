@@ -20,14 +20,18 @@ module Veezi
         self.client.configuration.content_type || :json
       end
 
+      def base_url
+        "#{self.client.configuration.endpoint_url}/#{self.client.configuration.api_version}#{self.api_path}"
+      end
+
       def all
-        response = request(:get)
+        response = request(:get, self.base_url)
         self.parser.parse(response)
       end
 
       protected
-      def request(method, options = {})
-        RestClient.send(method, self.configuration.endpoint_url + self.api_path, options.merge({ :accept => self.content_type }))
+      def request(method, url, options = {})
+        RestClient.send(method, url, options.merge({ :accept => self.content_type }))
       end
     end
   end

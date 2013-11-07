@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "Sessions API Resource" do
+describe "Films API Resource" do
   before do
     Veezi.configure do |config|
       config.api_key = "1234567890"

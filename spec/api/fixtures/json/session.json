@@ -1,0 +1,24 @@
+{
+    "Id":429,
+    "FilmId":"ST00000005",
+    "FilmPackageId":null,
+    "Title":"Women on the 6th Floor",
+    "ScreenId":1,
+    "Seating":"Open",
+    "AreComplimentariesAllowed":true,
+    "ShowType":"Public",
+    "SalesVia":
+        [
+            "WWW",
+            "POS"
+        ],
+    "Status":"Open",
+    "PreShowStartTime":"2013-08-01T14:00:00",
+    "FeatureStartTime":"2013-08-01T14:10:00",
+    "FeatureEndTime":"2013-08-01T15:54:00",
+    "CleanupEndTime":"2013-08-01T15:54:00",
+    "SeatsAvailable":106,
+    "SeatsHeld":0,
+    "SeatsHouse":0,
+    "SeatsSold":0
+}

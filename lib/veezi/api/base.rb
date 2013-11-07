@@ -29,6 +29,11 @@ module Veezi
         self.parser.parse(response)
       end
 
+      def find(id)
+        response = request(:get, "#{self.base_url}/#{id}")
+        self.parser.parse(response)
+      end
+
       protected
       def request(method, url, options = {})
         RestClient.send(method, url, options.merge({ :accept => self.content_type }))

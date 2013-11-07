@@ -8,7 +8,13 @@ module Veezi
       def parse(content)
         case @content_type.to_sym
           when :xml
-            Crack::XML.parse(content)
+            hash = Crack::XML.parse(content)
+
+            if key = hash.keys.find { |key| key =~ /ArrayOf/ }
+              hash.fetch(key, {}).delete_if { |k,v| k.include?("xml") }.values.flatten
+            else
+              hash.values.first || {}
+            end
           else
             Crack::JSON.parse(content)
         end

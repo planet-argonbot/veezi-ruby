@@ -1,0 +1,69 @@
+[
+    {
+        "Id":"ST00000032",
+        "Title":"Avatar",
+        "ShortName":"Avatar",
+        "Synopsis":"A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "Genre":"Action",
+        "SignageText":"Avatar",
+        "Distributor":"20th Century Fox",
+        "OpeningDate":"2009-09-17T00:00:00",
+        "Rating":"PG13",
+        "Status":"Active",
+        "Content":"Restricted to persons 13 years and over",
+        "Duration":162,
+        "NationalCode":null,
+        "People":[
+                {
+                    "Id":"0000000032",
+                    "FirstName":"Sam",
+                    "LastName":"Worthington",
+                    "Role":"Actor"
+                },
+                {
+                    "Id":"HO00000176",
+                    "FirstName":"James",
+                    "LastName":"Cameron",
+                    "Role":"Director"
+                },
+                {
+                    "Id":"HO00000578",
+                    "FirstName":"Sigourney",
+                    "LastName":"Weaver",
+                    "Role":"Actor"
+                }
+            ]
+    },
+    {
+        "Id":"ST00000065",
+        "Title":"Chronicle",
+        "ShortName":"Chronicle",
+        "Synopsis":"Three high school friends gain superpowers after making an incredible discovery. Soon, though, they find their lives spinning out of control and their bond tested as they embrace their darker sides.",
+        "Genre":"Drama",
+        "SignageText":"Chronicle",
+        "Distributor":"20th Century Fox",
+        "OpeningDate":"2012-03-15T16:39:25",
+        "Rating":"M -V",
+        "Status":"Active",
+        "Content":"M Contains violence.",
+        "Duration":84,
+        "NationalCode":"",
+        "People":[]
+    },
+    {
+        "Id":"ST00000074",
+        "Title":"Blade Runner",
+        "ShortName":"Blade Runn",
+        "Synopsis":"Deckard, a blade runner, has to track down and terminate 4 replicants who hijacked a ship in space and have returned to earth seeking their maker.",
+        "Genre":"Drama",
+        "SignageText":"Blade Runner",
+        "Distributor":"Warner Bros Pictures",
+        "OpeningDate":"1982-06-25T16:29:09",
+        "Rating":"R",
+        "Status":"Active",
+        "Content":"Restricted to persons over 16 years of age unless accompanied by a parent or guardian.",
+        "Duration":117,
+        "NationalCode":"",
+        "People":[]
+    }
+]

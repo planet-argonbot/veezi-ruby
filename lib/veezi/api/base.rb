@@ -35,19 +35,12 @@ module Veezi
         "#{self.client.configuration.endpoint_url}/#{self.client.configuration.api_version}#{self.api_path}"
       end
 
-      def all
-        response = request(:get, self.base_url)
-        self.parser.parse(response)
+      def access_token_header
+        { "VeeziAccessToken" => self.client.configuration.api_key }
       end
 
-      def find(id)
-        response = request(:get, "#{self.base_url}/#{id}")
-        self.parser.parse(response)
-      end
-
-      protected
       def request(method, url, options = {})
-        RestClient.send(method, url, options.merge({ :accept => self.content_type }))
+        RestClient.send(method, url, options.merge({ :accept => self.content_type }.merge(access_token_header)))
       end
     end
   end

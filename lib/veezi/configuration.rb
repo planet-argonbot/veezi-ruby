@@ -6,8 +6,10 @@ module Veezi
     attr_accessor :use_ssl
     attr_accessor :endpoint_url
     attr_accessor :content_type
+    attr_accessor :api_version
 
     def initialize
+      @api_version ||= "V1"
     end
 
     def valid?

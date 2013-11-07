@@ -1,0 +1,36 @@
+{
+    "Id":"ST00000032",
+    "Title":"Avatar",
+    "ShortName":"Avatar",
+    "Synopsis":"A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "Genre":"Action",
+    "SignageText":"Avatar",
+    "Distributor":"20th Century Fox",
+    "OpeningDate":"2009-09-17T00:00:00",
+    "Rating":"PG13",
+    "Status":"Active",
+    "Content":"Restricted to persons 13 years and over",
+    "Duration":162,
+    "DisplaySequence":22,
+    "NationalCode":null,
+    "People":[
+            {
+                "Id":"0000000032",
+                "FirstName":"Sam",
+                "LastName":"Worthington",
+                "Role":"Actor"
+            },
+            {
+                "Id":"HO00000176",
+                "FirstName":"James",
+                "LastName":"Cameron",
+                "Role":"Dicrector"
+            },
+            {
+                "Id":"HO00000578",
+                "FirstName":"Sigourney",
+                "LastName":"Weaver",
+                "Role":"Actor"
+            }
+        ]
+}

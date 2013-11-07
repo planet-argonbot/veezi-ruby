@@ -11,5 +11,9 @@ module Veezi
     def sessions
       @sessions ||= Veezi::API::Sessions.new(self)
     end
+
+    def films
+      @films ||= Veezi::API::Films.new(self)
+    end
   end
 end

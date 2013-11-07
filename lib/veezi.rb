@@ -5,6 +5,7 @@ require "veezi/client"
 require "veezi/api/base"
 require "veezi/api/parser"
 require "veezi/api/sessions"
+require "veezi/api/films"
 
 module Veezi
   class << self

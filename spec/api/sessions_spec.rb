@@ -13,7 +13,7 @@ describe "Sessions API Resource" do
   context "All" do
     before do
       response = File.new(File.dirname(__FILE__) + '/fixtures/json/sessions.json')
-      stub_request(:get, /.*planetargon.com.*/).to_return { |request| { :body => response } }
+      stub_request(:get, /.*planetargon.com.*/).to_return { { :body => response } }
     end
 
     it "should return an array" do
@@ -32,7 +32,7 @@ describe "Sessions API Resource" do
   context "Find" do
     before do
       response = File.new(File.dirname(__FILE__) + '/fixtures/json/session.json')
-      stub_request(:get, /.*planetargon.com.*/).to_return { |request| { :body => response } }
+      stub_request(:get, /.*planetargon.com.*/).to_return { { :body => response } }
     end
 
     it "should return a hash" do

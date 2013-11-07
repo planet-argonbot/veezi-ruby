@@ -1,5 +1,7 @@
 require "veezi/version"
+require "veezi/errors"
 require "veezi/configuration"
+require "veezi/client"
 require "veezi/api/base"
 require "veezi/api/sessions"
 
@@ -17,6 +19,10 @@ module Veezi
 
     def configuration
       @configuration ||= Veezi::Configuration.new
+    end
+
+    def client
+      @client = Veezi::Client.new
     end
   end
 end

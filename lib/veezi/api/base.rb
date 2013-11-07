@@ -12,6 +12,17 @@ module Veezi
         @parser = Veezi::API::Parser.new(self.client.configuration.content_type)
       end
 
+      def all
+        response = request(:get, self.base_url)
+        self.parser.parse(response)
+      end
+
+      def find(id)
+        response = request(:get, "#{self.base_url}/#{id}")
+        self.parser.parse(response)
+      end
+
+      protected
       def configuration
         self.client.configuration
       end

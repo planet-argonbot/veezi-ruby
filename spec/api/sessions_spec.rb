@@ -38,5 +38,13 @@ describe "Sessions API Resource" do
     it "should return a hash" do
       expect(@client.sessions.find(429)).to be_an_instance_of(Hash)
     end
+
+    it "should have Women on the 6th Floor as the movie title" do
+      expect(@client.sessions.find(429)["Title"]).to eq "Women on the 6th Floor"
+    end
+
+    it "should have a screen id of 1" do
+      expect(@client.sessions.find(429)["ScreenId"]).to eq 1
+    end
   end
 end

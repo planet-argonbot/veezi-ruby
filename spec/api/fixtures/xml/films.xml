@@ -1,0 +1,72 @@
+<ArrayOfFilm xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Vista.Online.BackOffice.Api.Models.V1">
+    <Film>
+        <Content>Restricted to persons 13 years and over</Content>
+        <DisplaySequence>22</DisplaySequence>
+        <Distributor>20th Century Fox</Distributor>
+        <Duration>162</Duration>
+        <Genre>Action</Genre>
+        <Id>ST00000032</Id>
+        <NationalCode i:nil="true"></NationalCode>
+        <OpeningDate>2009-09-17T00:00:00</OpeningDate>
+        <People>
+            <Person>
+                <FirstName>Sam</FirstName>
+                <Id>0000000032</Id>
+                <LastName>Worthington</LastName>
+                <Role>Actor</Role>
+            </Person>
+            <Person>
+                <FirstName>James</FirstName>
+                <Id>HO00000176</Id>
+                <LastName>Cameron</LastName>
+                <Role>Dicrector</Role>
+            </Person>
+            <Person>
+                <FirstName>Sigourney</FirstName>
+                <Id>HO00000578</Id>
+                <LastName>Weaver</LastName>
+                <Role>Actor</Role>
+            </Person>
+        </People>
+        <Rating>PG13</Rating>
+        <ShortName>Avatar</ShortName>
+        <SignageText>Avatar</SignageText>
+        <Status>Active</Status>
+        <Synopsis>A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.</Synopsis>
+        <Title>Avatar</Title>
+    </Film>
+    <Film>
+        <Content>M Contains violence.</Content>
+        <DisplaySequence>50</DisplaySequence>
+        <Distributor>20th Century Fox</Distributor>
+        <Duration>84</Duration>
+        <Genre>Drama</Genre>
+        <Id>ST00000065</Id>
+        <NationalCode></NationalCode>
+        <OpeningDate>2012-03-15T16:39:25</OpeningDate>
+        <People></People>
+        <Rating>M -V</Rating>
+        <ShortName>Chronicle</ShortName>
+        <SignageText>Chronicle</SignageText>
+        <Status>Active</Status>
+        <Synopsis>Three high school friends gain superpowers after making an incredible discovery. Soon, though, they find their lives spinning out of control and their bond tested as they embrace their darker sides.</Synopsis>
+        <Title>Chronicle</Title>
+    </Film>
+    <Film>
+        <Content>Restricted to persons over 16 years of age unless accompanied by a parent or guardian.</Content>
+        <DisplaySequence>50</DisplaySequence>
+        <Distributor>Warner Bros Pictures</Distributor>
+        <Duration>117</Duration>
+        <Genre>Drama</Genre>
+        <Id>ST00000022</Id>
+        <NationalCode i:nil="true"></NationalCode>
+        <OpeningDate>2013-03-01T00:00:00</OpeningDate>
+        <People></People>
+        <Rating>R</Rating>
+        <ShortName>Blade Runn</ShortName>
+        <SignageText>Blade Runner</SignageText>
+        <Status>Deleted</Status>
+        <Synopsis>Deckard, a blade runner, has to track down and terminate 4 replicants who hijacked a ship in space and have returned to earth seeking their maker.</Synopsis>
+        <Title>Blade Runner</Title>
+    </Film>
+</ArrayOfFilm>

@@ -10,6 +10,7 @@ module Veezi
 
     def initialize
       @api_version ||= "V1"
+      @endpoint_url ||= "api.us.veezi.com"
     end
 
     def valid?

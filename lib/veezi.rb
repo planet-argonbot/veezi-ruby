@@ -3,6 +3,7 @@ require "veezi/errors"
 require "veezi/configuration"
 require "veezi/client"
 require "veezi/api/base"
+require "veezi/api/parser"
 require "veezi/api/sessions"
 
 module Veezi

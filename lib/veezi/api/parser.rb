@@ -1,3 +1,5 @@
+require 'crack'
+
 module Veezi
   module API
     class Parser

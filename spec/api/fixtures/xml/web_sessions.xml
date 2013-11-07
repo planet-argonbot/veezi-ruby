@@ -1,0 +1,49 @@
+<ArrayOfSession xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Vista.Online.BackOffice.Api.Models.V1">
+    <Session>
+        <AreComplimentariesAllowed>true</AreComplimentariesAllowed>
+        <CleanupEndTime>2013-06-28T18:49:00</CleanupEndTime>
+        <FeatureEndTime>2013-06-28T18:49:00</FeatureEndTime>
+        <FeatureStartTime>2013-06-28T17:00:00</FeatureStartTime>
+        <FilmId>ST00000069</FilmId>
+        <FilmPackageId i:nil="true"></FilmPackageId>
+        <Id>702</Id>
+        <PreShowStartTime>2013-06-28T17:00:00</PreShowStartTime>
+        <SalesVia>
+            <SalesChannel>WWW</SalesChannel>
+            <SalesChannel>POS</SalesChannel>
+        </SalesVia>
+        <ScreenId>2</ScreenId>
+        <Seating>Select</Seating>
+        <SeatsAvailable>70</SeatsAvailable>
+        <SeatsHeld>0</SeatsHeld>
+        <SeatsHouse>3</SeatsHouse>
+        <SeatsSold>2</SeatsSold>
+        <ShowType>Public</ShowType>
+        <Status>Open</Status>
+        <Title>Contraband</Title>
+        <URL>http://planetargon.com</URL>
+    </Session>
+    <Session>
+        <AreComplimentariesAllowed>true</AreComplimentariesAllowed>
+        <CleanupEndTime>2013-06-28T14:05:00</CleanupEndTime>
+        <FeatureEndTime>2013-06-28T14:05:00</FeatureEndTime>
+        <FeatureStartTime>2013-06-28T12:15:00</FeatureStartTime>
+        <FilmId>ST00000047</FilmId>
+        <FilmPackageId i:nil="true"></FilmPackageId>
+        <Id>703</Id>
+        <PreShowStartTime>2013-06-28T12:15:00</PreShowStartTime>
+        <SalesVia>
+            <SalesChannel>POS</SalesChannel>
+        </SalesVia>
+        <ScreenId>2</ScreenId>
+        <Seating>Open</Seating>
+        <SeatsAvailable>72</SeatsAvailable>
+        <SeatsHeld>0</SeatsHeld>
+        <SeatsHouse>3</SeatsHouse>
+        <SeatsSold>0</SeatsSold>
+        <ShowType>Public</ShowType>
+        <Status>Open</Status>
+        <Title>The Godfather</Title>
+        <URL>http://planetargon.com</URL>
+    </Session>
+</ArrayOfSession>

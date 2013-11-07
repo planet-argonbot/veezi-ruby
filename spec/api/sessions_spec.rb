@@ -28,4 +28,15 @@ describe "Sessions API Resource" do
       expect(@client.sessions.all.map { |movie| movie["Title"] } ).to match_array ["Contraband", "The Godfather"]
     end
   end
+
+  context "Find" do
+    before do
+      response = File.new(File.dirname(__FILE__) + '/fixtures/json/session.json')
+      stub_request(:get, /.*planetargon.com.*/).to_return { |request| { :body => response } }
+    end
+
+    it "should return a hash" do
+      expect(@client.sessions.find(429)).to be_an_instance_of(Hash)
+    end
+  end
 end
